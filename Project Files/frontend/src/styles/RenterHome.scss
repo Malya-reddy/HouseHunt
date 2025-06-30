@@ -1,0 +1,45 @@
+@import "./variables.scss";
+@import "./breakpoints.scss";
+
+.renter-dashboard {
+  padding: 40px 20px;
+  text-align: center;
+  color: $blue;
+}
+
+.title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.renter-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  background-color: $blue;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: $pinkred;
+  }
+}
+
+.active-tab {
+  background-color: $pinkred;
+}
+
+.dashboard-content {
+  padding: 20px 50px;
+}
