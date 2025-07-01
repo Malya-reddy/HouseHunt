@@ -1,7 +1,6 @@
 
 Video Demonstration of HouseHunt
 
-🔗📹 Demo Video
  
 ## 📹 Demo Video
 
