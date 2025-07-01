@@ -49,6 +49,7 @@ HouseHunt is a modern and intuitive MERN Stack-based web application that connec
 - Dotenv
 
 ### Tools & Libraries
+
 - Nodemon (development server)
 - CORS, dotenv, concurrently
 - MongoDB Atlas (cloud database)
@@ -58,13 +59,38 @@ HouseHunt is a modern and intuitive MERN Stack-based web application that connec
 
 ## 📁 Project Structure
 
+```bash
+househunt/
+├── frontend/ # React App
+│ ├── src/
+│ │ ├── components/
+│ │ ├── modules/
+│ │ ├── App.js
+│ │ └── .env
+│ └── public/
+├── backend/ # Express App
+│ ├── config/
+│ ├── controllers/
+│ ├── models/
+│ ├── routes/
+│ ├── middleware/
+│ ├── uploads/
+│ ├── index.js
+│ └── .env
+├── .gitignore
+├── README.md
+└── package.json
 
+```
 
 
 ---
 ## ⚙️ Setup Instructions
 
+
 ### 🔧 Prerequisites
+
+
 - Node.js and npm
 - MongoDB (local or Atlas)
 - Git
@@ -119,6 +145,8 @@ npm start
 
 **🌐 Deployment**
 
+
+
 -Frontend: Vercel / Netlify
 
 -Backend: Render / Cyclic / Railway
@@ -127,6 +155,8 @@ npm start
 
 **🧪 Testing**
 
+
+
 -Use Postman to test backend APIs
 
 -Verify protected routes with JWT
@@ -134,6 +164,8 @@ npm start
 -Test property booking flow from listing → booking → dashboard view
 
 **📚 Resources**
+
+
 
 -Project Flow Demo (Video)
 
@@ -147,6 +179,7 @@ npm start
 
 
 **👨‍💻 Team Members:**
+
 
 
  -Gandareddy Malya
@@ -163,6 +196,7 @@ npm start
 
 
 **👨‍🎓 Developed By**
+
 
 
 MERN Stack Developer | Passionate about building solutions that improve lives 🌐💡
