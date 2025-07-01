@@ -98,32 +98,44 @@ npm start
 > Ensure your .env file is configured correctly with your DB URI and JWT secret.
 
 
+
+
 📂 Project Structure
+
+
 
 
 househunt/
 
+
 ├── frontend/
 
-│   ├── public/
 
-│   └── src/
+│      ├── public/
 
-│       ├── components/
+│      └── src/
 
-│       ├── pages/
+│            ├── components/
 
-│       └── App.js
+│            ├── pages/
+
+│            └── App.js
+
+
 
 ├── backend/
 
-│   ├── controllers/
 
-│   ├── models/
 
-│   ├── routes/
+│      ├── controllers/
 
-│   └── server.js
+│      ├── models/
+ 
+│      ├── routes/
+ 
+│      └── server.js
+
+
 
 └── README.md
 
@@ -142,10 +154,8 @@ househunt/
 
 
 
-🤝 Contributors
 
-
-👨‍💻 Development Team:
+👨‍💻 Team Members:
 
 
  Gandareddy Malya
@@ -162,6 +172,7 @@ househunt/
 
 
 👨‍🎓 Developed By
+
 
 MERN Stack Developer | Passionate about building solutions that improve lives 🌐💡
 
