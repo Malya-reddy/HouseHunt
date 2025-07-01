@@ -1,177 +1,168 @@
-🏡 HouseHunt: Finding Your Perfect Rental Home
+# 🏡 HouseHunt – Finding the Perfect Rental Home
+
+HouseHunt is a modern and intuitive MERN Stack-based web application that connects property owners with renters in a hassle-free way. It enables users to browse, book, and manage rental properties with real-time availability while providing property owners and admins with comprehensive tools to handle property listings and bookings efficiently and securely.
+
+---
+
+## 🚀 Features
+
+👤 **For Renters:**
+- Secure sign-up/login and profile creation
+- Browse available properties by location, type, and price
+- Book rental properties with real-time availability
+- View, reschedule, or cancel bookings via a personal dashboard
+
+🏠 **For Property Owners:**
+- Dedicated dashboard for managing property listings
+- Add, edit, and delete property listings with photos and amenities
+- View booking requests and manage bookings
+- Receive booking notifications
+
+🛡️ **For Admins:**
+- Manage all user accounts, property listings, and bookings
+- Approve or deactivate users
+- Oversee all platform operations and maintain data integrity
+- Role-based access control for users, owners, and admins
+
+---
+
+## 📽️ Video Demonstration
+
+[👉 Click here to watch the demo video](https://drive.google.com/file/d/1UulF_ifPZJraTi5xcXrFyDqB5hvDRMQP/view?usp=drive_link)
+
+---
+
+## 🧑‍💻 Tech Stack
+
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios (API requests)
+- React Router DOM (navigation)
+
+### Backend
+- Node.js + Express.js
+- MongoDB + Mongoose
+- JWT (authentication)
+- Bcrypt (password hashing)
+- Multer (file uploads)
+- Dotenv
+
+### Tools & Libraries
+- Nodemon (development server)
+- CORS, dotenv, concurrently
+- MongoDB Atlas (cloud database)
+- Git & GitHub (version control)
+
+---
+
+## 📁 Project Structure
 
 
- 📘 Overview
 
 
-HouseHunt is a full-stack web application designed to simplify the rental home search process for tenants while providing a seamless listing experience for landlords. Our platform bridges the gap between property seekers and property providers, offering a feature-rich, user-friendly experience.
+---
+## ⚙️ Setup Instructions
 
-
-
- 🚀 Features
-
-
-- 🔍 *Advanced Search Filters* – Find homes by location, price, amenities, and more.
-- 📸 *Image Galleries* – Browse high-quality photos for each listing.
-- 🗺 *Interactive Maps* – View property locations on the map.
-- 📅 *Schedule Visits* – Request and manage property visits.
-- 🔐 *User Authentication* – Secure login for tenants and landlords.
-- 📩 *Messaging System* – Communicate directly through the app.
-- 📊 *Dashboard for Landlords* – Manage listings, requests, and messages.
-
-
-
-
- 🛠 Tech Stack
-
-
- 🌐 Frontend:
- 
-- React.js ⚛
-- HTML5 🧱
-- CSS3 🎨
-- Bootstrap 💄 or TailwindCSS 💨
-
-
-🖥 Backend:
-
-- Node.js 🟩
-- Express.js 🚂
-- JWT for authentication 🔐
-
-
-🗄 Database:
-
-- MongoDB 🍃 with Mongoose ORM
-
-
-
-
- 🧪 Installation & Setup Guide
- 
-
- ✅ Prerequisites:
- 
-- Node.js installed
-- MongoDB running locally or via cloud
+### 🔧 Prerequisites
+- Node.js and npm
+- MongoDB (local or Atlas)
 - Git
 
+### 🖥️ Installation
 
-  
-🔧 Setup Instructions:
+**Clone the repository**
 
+```bash
+git clone https://github.com/Malya-reddy/HouseHunt.git
+cd HouseHunt
+  ```
 
- # Clone the repository
- 
-git clone https://github.com/your-repo/househunt.git
+**Install backend dependencies**
 
-# Navigate to the project folder
-
-cd househunt
-
-# Install backend dependencies
-
+```bash
 cd backend
-
 npm install
+npm start
+```
+**Install frontend dependencies**
 
-🔧 Setup Instructions:
-
-# Install frontend dependencies
+```bash
 
 cd ../frontend
-
 npm install
-
-# Start the backend server
-
-cd ../backend
-
 npm start
+```
+**Create .env files**
 
-# Start the frontend
+*For backend (backend/.env):*
 
-cd ../frontend
+```bash
+PORT=5000
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_secret_key
+```
+*For frontend (if required):*
+```bash
+REACT_APP_API_URL=http://localhost:5000
+```
+**Run the app**
 
+In the root directory:
+
+```bash
+
+npm install concurrently --save-dev
 npm start
-
-> Ensure your .env file is configured correctly with your DB URI and JWT secret.
-
+```
 
 
+**🌐 Deployment**
 
-📂 Project Structure
+-Frontend: Vercel / Netlify
 
+-Backend: Render / Cyclic / Railway
 
+-Database: MongoDB Atlas
 
+**🧪 Testing**
 
-househunt/
+-Use Postman to test backend APIs
 
+-Verify protected routes with JWT
 
-├── frontend/
+-Test property booking flow from listing → booking → dashboard view
 
+**📚 Resources**
 
-│      ├── public/
+-Project Flow Demo (Video)
 
-│      └── src/
+-MERN Stack Docs
 
-│            ├── components/
-
-│            ├── pages/
-
-│            └── App.js
-
-
-
-├── backend/
-
-
-
-│      ├── controllers/
-
-│      ├── models/
- 
-│      ├── routes/
- 
-│      └── server.js
-
-
-
-└── README.md
-
-
-
-
-📈 Future Enhancements
-
-
-- AI-based property recommendations
-
-- Multi-language support
-
-- Mobile app version using React Native
+-Tailwind CSS Docs
 
 
 
 
 
-👨‍💻 Team Members:
+
+**👨‍💻 Team Members:**
 
 
- Gandareddy Malya
+ -Gandareddy Malya
 
- Syed Maheen Fathima
+ -Syed Maheen Fathima
 
- Chenigala Navya Sree
+ -Chenigala Navya Sree
 
- Nagalatha Rani Badiginchala
+ -Nagalatha Rani Badiginchala
 
- Nikhitha Yerriveera
-
-
+ -Nikhitha Yerriveera
 
 
-👨‍🎓 Developed By
+
+
+**👨‍🎓 Developed By**
 
 
 MERN Stack Developer | Passionate about building solutions that improve lives 🌐💡
